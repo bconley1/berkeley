@@ -1,0 +1,197 @@
+html,
+body,
+.hero {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+a {
+  color: inherit;
+}
+a:link {
+  text-decoration: none;
+  color:inherit;
+}
+a:hover {
+  text-decoration: none;
+  color:inherit;
+  border-bottom: none;
+}
+a:visited {
+  text-decoration: none;
+  color:inherit;
+  border-bottom: none;
+}
+.hero{
+  background-image: url("../images/hero_bg2.jpg");
+    background-size: cover;
+}
+.menu{
+  background-color: white;
+  width:100%;
+  height:100px;
+  z-index: 2;
+}
+.logo{
+  margin: 29px 0px 0px 32%;
+  float: left;
+}
+.menu_icon{
+  position: relative;
+  margin: 40px 0px 0px 30px;
+  float: left;
+}
+/*.ctas{
+  position: relative;
+  margin: 23px 23px;
+  float: right;
+}*/
+h4 {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  font-size: 23px;
+  display: inline-block;
+  color: white;
+}
+h5 {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  color: #FDB515;
+  text-transform: uppercase;
+}
+h6 {
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  display: inline-block;
+  color: white;
+}
+.hero_headline{
+  position: absolute;
+  bottom: 45px;
+  left: 4%;
+}
+
+/****** IMAGE HOVER STATES ******/
+
+.image1{
+  position: absolute;
+  left: 0px;
+  top: 170px;
+}
+.image2{
+  position: absolute;
+  right: 18%;
+  top: 261px;
+}
+
+/******* trying to figure out blue bar *******/
+
+/*figure.blue_bar::before{
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0;
+  bottom: 0;
+  background-color: #00B0DA;
+}
+figure.blue_bar {
+  position: absolute;
+  bottom: 130px;
+  left: 25px;
+  width: 100%;
+  height: 8px;
+  left: 0;
+  bottom: 0;
+  background-color: #00B0DA;
+}*/
+
+/**************/
+
+figure.image2 figcaption::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(107,192,213,.30) 30%, rgba(1,71,88,.8) 75%);
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+}
+figure.image2 h4{
+  position: absolute;
+  bottom: 125px;
+  left: 25px;
+  width: 100%;
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image2 h5{
+  position: absolute;
+  bottom: 105px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image2 h6 {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image2 figcaption::before{
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image2:hover figcaption::before{
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image2 h4, 
+figure.image2 h5,
+figure.image2 h6 {
+  opacity: 0;
+  transform: translate3d(0,10px,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image2:hover h4, 
+figure.image2:hover h5,
+figure.image2:hover h6 {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+.image3{
+  position: absolute;
+  right: 0px;
+  top: 608px;
+}
+
+/****** MEDIA QUERIES ******/
+
+
+@media screen and (min-width: 1220px) {
+  .hero{
+      background-image: url("../images/hero_bg2.jpg");
+  }
+}
+@media screen and (max-width: 1220px) {
+  .hero{
+      display: none;
+  }
+}

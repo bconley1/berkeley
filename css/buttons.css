@@ -20,8 +20,16 @@
   display: inline-block;
   background-color: #003262;
 }
+figure.image1:hover,
+figure.image2:hover,
+figure.image3:hover,
+figure.image4:hover,
+figure.image5:hover,
+figure.image6:hover {
+  cursor: url('../images/plus.svg'), auto;
+}
 
-/* */
+/**************/
 
 figure.image1 figcaption::before{
   position: absolute;
@@ -29,7 +37,7 @@ figure.image1 figcaption::before{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(107,192,213,.5) 40%, rgba(1,71,88,.9) 75%);
+  background-color: rgba(0, 0, 0, 0.65);
   content: '';
   opacity: 0;
   transition: transform 0.35s, color 0.35s;
@@ -85,7 +93,71 @@ figure.image1:hover h6 {
   transition: opacity 0.35s, transform 0.35s;
 }
 
-/* */
+/**************/
+
+figure.image2 figcaption::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+}
+figure.image2 h4{
+  position: absolute;
+  bottom: 125px;
+  left: 25px;
+  width: 100%;
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image2 h5{
+  position: absolute;
+  bottom: 105px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image2 h6 {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image2 figcaption::before{
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image2:hover figcaption::before{
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image2 h4, 
+figure.image2 h5,
+figure.image2 h6 {
+  opacity: 0;
+  transform: translate3d(0,10px,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image2:hover h4, 
+figure.image2:hover h5,
+figure.image2:hover h6 {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/**************/
 
 figure.image3 figcaption::before{
   position: absolute;
@@ -93,7 +165,7 @@ figure.image3 figcaption::before{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(107,192,213,.5) 40%, rgba(1,71,88,.9) 75%);
+  background-color: rgba(0, 0, 0, 0.65);
   content: '';
   opacity: 0;
   transition: transform 0.35s, color 0.35s;
@@ -144,6 +216,198 @@ figure.image3 h6 {
 figure.image3:hover h4, 
 figure.image3:hover h5,
 figure.image3:hover h6 {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/**************/
+
+figure.image4 figcaption::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+}
+figure.image4 h4{
+  position: absolute;
+  bottom: 115px;
+  left: 25px;
+  width: 100%;
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image4 h5{
+  position: absolute;
+  bottom: 95px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image4 h6 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image4 figcaption::before{
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image4:hover figcaption::before{
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image4 h4, 
+figure.image4 h5,
+figure.image4 h6 {
+  opacity: 0;
+  transform: translate3d(0,10px,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image4:hover h4, 
+figure.image4:hover h5,
+figure.image4:hover h6 {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/**************/
+
+figure.image5 figcaption::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+}
+figure.image5 h4{
+  position: absolute;
+  bottom: 125px;
+  left: 25px;
+  width: 100%;
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image5 h5{
+  position: absolute;
+  bottom: 105px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image5 h6 {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image5 figcaption::before{
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image5:hover figcaption::before{
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image5 h4, 
+figure.image5 h5,
+figure.image5 h6 {
+  opacity: 0;
+  transform: translate3d(0,10px,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image5:hover h4, 
+figure.image5:hover h5,
+figure.image5:hover h6 {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/**************/
+
+figure.image6 figcaption::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+}
+figure.image6 h4{
+  position: absolute;
+  bottom: 115px;
+  left: 25px;
+  width: 100%;
+  content: '';
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image6 h5{
+  position: absolute;
+  bottom: 95px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image6 h6 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,10px,0);
+}
+figure.image6 figcaption::before{
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image6:hover figcaption::before{
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image6 h4, 
+figure.image6 h5,
+figure.image6 h6 {
+  opacity: 0;
+  transform: translate3d(0,10px,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+figure.image6:hover h4, 
+figure.image6:hover h5,
+figure.image6:hover h6 {
   opacity: 1;
   transform: translate3d(0,0,0);
   transition: opacity 0.35s, transform 0.35s;

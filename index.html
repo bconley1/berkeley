@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>JHU SAIS - Concept 2</title>
+	<title>Berkeley SPH</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/buttons.css">
@@ -10,29 +10,65 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
-	<section class="hero">
-		
-		<div class="menu">
+
+<!-- BROWSER TOO SMALL -->
+
+<div class="too-small">
+	<h3>make your browser window larger to view the design please.</h3>
+</div>
+
+<!-- BROWSER TOO LARGE -->
+
+<div class="toolarge">
+	<h3>make your browser window smaller to view the design please.</h3>
+</div>
+
+<!-- HERO IMAGE HERE -->
+
+<section class="parallax" id="parallax-1" data-image-src="images/hero_bg2.jpg">
+
+<!-- NAV BAR -->
+	
+	<div class="menu">
+		<a href="#" id="hamburger">
 			<div class="menu_icon">
 				<img src="images/menu_icon.svg" alt="">
 			</div>
-			<div class="logo">
-				<img src="images/logo.svg" alt="">
-			</div>
-			<div class="cta_container">
-				<div class="cta_text">
-					<a href="#">Apply</a>
-					<a href="#">Request Info</a>
-				</div>
+		</a>
+		<div class="logo">
+			<img src="images/logo.svg" alt="">
+		</div>
+		<div class="cta_container">
+			<div class="cta_text">
+				<a href="#">Apply</a>
+				<a href="#">Request Info</a>
 			</div>
 		</div>
+	</div>
 
-		
-		<div class="hero_headline">
-			<img src="images/headline.png" alt="">
+<!-- HERO HEADLINE -->
+
+	<div class="hero_headline">
+		<img src="images/headline.png" alt="">
+	</div>
+
+<!-- HIDDEN MENU -->
+
+	<div class="mainmenu" id="mainmenu">
+		<div class="menu1" id="menu1">
+			<img src="images/menu_left.png" alt="">
 		</div>
+		<div class="menu2" id="menu2">
+			<img src="images/menu_middle.png" alt="">
+		</div>
+		<div class="menu3" id="menu3">
+			<img src="images/menu_right.png" alt="">
+		</div>	
+	</div>
 
+<!-- PARALLAX / PEOPLE IMAGES-->
 
+	<div class="my-paroller" data-paroller-factor="0.145" data-paroller-type="foreground" data-paroller-direction="vertical">
 		<figure class="image1">
 			<img src="images/people_image_1.jpg" alt="">
 			<figcaption>
@@ -41,9 +77,9 @@
 				<h6>Executive Director of the <br>National Native American AIDS <br>Prevention Center</h6>
 			</figcaption>
 		</figure>
-<!-- 		<figure class="blue_bar">
+	</div>
 
-		</figure> -->
+	<div class="my-paroller" data-paroller-factor="0.075" data-paroller-type="foreground" data-paroller-direction="vertical">
 		<figure class="image2">
 			<img src="images/people_image_2.jpg" alt="">
 			<figcaption>
@@ -52,8 +88,9 @@
 				<h6>Executive Director of the <br>National Native American AIDS <br>Prevention Center</h6>
 			</figcaption>
 		</figure>
+	</div>
 
-
+	<div class="my-paroller" data-paroller-factor="0.02" data-paroller-type="foreground" data-paroller-direction="vertical">
 		<figure class="image3">
 			<img src="images/people_image_3.jpg" alt="">
 			<figcaption>
@@ -62,19 +99,82 @@
 				<h6>Executive Director of the <br>National Native American AIDS <br>Prevention Center</h6>
 			</figcaption>
 		</figure>
+	</div>
 
-	</section>
+</section>
 
-<!-- BELOW HERO -->
+<!-- MIDDLE SECTION PARALLAX -->
 
-	<section>
-		
-	</section>
+<section class="homepage">
+	<div class="my-paroller" data-paroller-factor="0.175" data-paroller-type="foreground" data-paroller-direction="vertical">
+		<div class="constellation_left">
+			<img src="images/constellation_left.svg" alt="">
+		</div>
+	</div>
+	<div class="my-paroller" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="vertical">
+		<div class="constellation_right">
+			<img src="images/constellation_right.svg" alt="">
+		</div>
+	</div>
+</section>
+
+<!-- BOTTOM PARALLAX -->
+
+<section class="parallax" id="parallax-2" data-image-src="images/image2.jpg">
+
+	<div class="prefooter_headline">
+		<img src="images/mindswanted.png" alt="">
+	</div>
+
+<!-- PARALLAX / PEOPLE IMAGES-->
+
+	<div class="my-paroller" data-paroller-factor="0.145" data-paroller-type="foreground" data-paroller-direction="vertical">
+		<figure class="image4">
+			<img src="images/people_image_4.jpg" alt="">
+			<figcaption>
+				<h4>Firstname, Lastname</h4>
+				<h5>MSW, MPH '83</h5>
+				<h6>Executive Director of the <br>National Native American AIDS <br>Prevention Center</h6>
+			</figcaption>
+		</figure>
+	</div>
+
+	<div class="my-paroller" data-paroller-factor="0.075" data-paroller-type="foreground" data-paroller-direction="vertical">
+		<figure class="image5">
+			<img src="images/people_image_5.jpg" alt="">
+			<figcaption>
+				<h4>Firstname, Lastname</h4>
+				<h5>MSW, MPH '83</h5>
+				<h6>Executive Director of the <br>National Native American AIDS <br>Prevention Center</h6>
+			</figcaption>
+		</figure>
+	</div>
+
+	<div class="my-paroller" data-paroller-factor="0.02" data-paroller-type="foreground" data-paroller-direction="vertical">
+		<figure class="image6">
+			<img src="images/people_image_6.jpg" alt="">
+			<figcaption>
+				<h4>Firstname, Lastname</h4>
+				<h5>MSW, MPH '83</h5>
+				<h6>Executive Director of the <br>National Native American AIDS <br>Prevention Center</h6>
+			</figcaption>
+		</figure>
+	</div>
+
+</section>
+
+<!-- <section class="mindswanted">
+</section> -->
+
+<section class="footer">
+</section>
 	
 
 	 <!-- Scripts -->
      <script src="js/jquery.js"></script> <!-- linking to jQuery file -->
      <script src="js/main.js"></script>
+     <script src="js/jquery.paroller.js"></script>
+    <!--    <script src="js/app.js"></script> -->
     <!-- End Scripts -->
 </body>
 </html>

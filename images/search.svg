@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1289.000000, -41.000000)" stroke="#000000" stroke-width="2">
+            <g id="NavBar" transform="translate(0.000000, -29.000000)">
+                <g id="Search" transform="translate(1290.000000, 71.000000)">
+                    <path d="M15,15 L22.2666667,21.6591801" id="Path-2"></path>
+                    <path d="M0,8.50012819 C0,3.81322788 3.81327916,0 8.50017947,0 C13.1870798,0 17,3.81322788 17,8.50012819 C17,13.1870798 13.1870798,17 8.50017947,17 C3.81292021,17 0,13.1870798 0,8.50012819 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
